@@ -1,4 +1,4 @@
-FLAGS_OBJECTS = -c
+FLAGS_OBJECTS = -c -Wall -Wextra -Werror -W
 SRC = ./srcs
 INCLUDES = ./includes
 C_FILE = ft_putchar.c ft_putstr.c ft_strcmp.c ft_strlen.c ft_swap.c
